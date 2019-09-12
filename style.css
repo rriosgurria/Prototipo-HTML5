@@ -1,14 +1,15 @@
 body{
-
+	margin: 0;
+	font-family: 'Gayathri', sans-serif;
 }
 
 #wrapper{
 	width: 90%;
 	height: auto;
-	margin:12px;
+	margin: 0 auto;
 	padding: 12px;
-	background:teal;
-	
+	background: teal;
+
 }
 
 #Title{
@@ -16,22 +17,51 @@ body{
 }
 
 #platillos{
-
+	width: 100%;
+	height: auto;
 }
 
 #one{
+	width:31%;
+	background:white;
+	display: inline-block;
+	padding: 12px;
 
 }
 
 #two{
+	width:31%;
+	background:white;
+	display: inline-block;
+	padding: 12px;
 
 }
 
 #three{
+	width:31%;
+	background:white;
+	display: inline-block;
+	padding: 12px;
 
 }
 
-.circle-image{
-
+#one .circle-image{
+		width:200px;
+		height: 200px;
+		border-radius: 200px;
+		background: yellow;
 }
 
+#two .circle-image{
+		width:200px;
+		height: 200px;
+		border-radius: 200px;
+		background: blue;
+}
+
+#three .circle-image{
+		width:200px;
+		height: 200px;
+		border-radius: 200px;
+		background: red;
+}
